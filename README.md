@@ -100,3 +100,73 @@ flutter run
 
 # Build APK (optional)
 flutter build apk --release
+
+## 📸 Screenshots & Demo
+
+
+| Home Screen | Forecast View | Favorites |
+|-------------|---------------|-----------|
+| ![Home](https://www.figma.com/community/file/1264522121969062318/weather-app) | ![Forecast](https://www.winklix.com/blog/the-cost-of-developing-a-weather-app-like-willyweather/) | 
+
+**Live Demo GIFs:**  
+- Home Screen Animation: ![Home GIF](https://cdn.dribbble.com/userupload/26412348/file/original-e5d86bfa6580fb17fb7b664b03a2e57d.gif)  
+ 
+
+---
+
+## 🏁 Getting Started
+
+### Prerequisites
+- Flutter (Latest Stable Version)  
+- Dart SDK  
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/weatherly.git
+cd weatherly
+
+# Install dependencies
+flutter pub get
+
+# Set your API key
+# Open lib/utils/constants.dart and replace "YOUR_API_KEY_HERE"
+
+# Run the app
+flutter run
+
+# Build APK (optional)
+flutter build apk --release
+🚀 Deployment
+Build an optimized release for the Play Store:
+
+bash
+Copy code
+flutter build apk --release
+For signing and Play Store upload, see Flutter’s official guide.
+
+🧠 Future Enhancements
+🗺️ Map-based weather visualization
+
+🌐 Multi-language support
+
+🌡️ Advanced weather statistics
+
+🌍 Offline weather data caching
+
+🤝 Contributing
+Contributions are welcome!
+Fork the repo → create a new branch → make edits → submit a pull request:
+
+bash
+Copy code
+git checkout -b feature/new-feature
+🪪 License
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+💜 Author
+Tisha — CSE (Cyber Security & Digital Forensics)
+"Forecasts made clear."
+
+📧 Reach out on LinkedIn | 🌐 Portfolio
