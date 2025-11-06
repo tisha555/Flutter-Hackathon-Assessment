@@ -103,33 +103,11 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 - Flutter (Latest Stable Version)  
 - Dart SDK  
 
-### Setup
 
-git clone https://github.com/yourusername/weatherly.git
-cd weatherly
-flutter pub get
-# Open lib/utils/constants.dart and set your API key
-flutter run
-
-
-🧠 Future Enhancements
-🗺️ Map-based weather visualization
-
-🌐 Multi-language support
-
-🌡️ Advanced weather statistics
-
-🌍 Offline weather data caching
-
-🤝 Contributing
-Fork → create a branch → make edits → submit a pull request:
-
-
-git checkout -b feature/new-feature
-🪪 License
+##🪪 License
 MIT License — see LICENSE file.
 
-💜 Author
+##💜 Author
 Tisha — CSE (Cyber Security & Digital Forensics)
 "Forecasts made clear."
 
