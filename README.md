@@ -83,8 +83,8 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 - Flutter (Latest Stable Version)
 - Dart SDK
 
-### Installation Steps
-```bash
+## Installation Steps
+
 # Clone the repository
 git clone https://github.com/yourusername/weatherly.git
 cd weatherly
@@ -120,8 +120,8 @@ flutter build apk --release
 - Flutter (Latest Stable Version)  
 - Dart SDK  
 
-### Installation
-```bash
+## Installation
+
 # Clone the repository
 git clone https://github.com/yourusername/weatherly.git
 cd weatherly
@@ -140,7 +140,7 @@ flutter build apk --release
 🚀 Deployment
 Build an optimized release for the Play Store:
 
-bash
+
 Copy code
 flutter build apk --release
 For signing and Play Store upload, see Flutter’s official guide.
