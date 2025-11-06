@@ -102,13 +102,13 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 ### Prerequisites
 - Flutter (Latest Stable Version)  
 - Dart SDK  
-
+---
 
 ##🪪 License
 MIT License — see LICENSE file.
-
+---
 ##💜 Author
-Tisha — CSE (Cyber Security & Digital Forensics)
-"Forecasts made clear."
+###Tisha — CSE (Cyber Security & Digital Forensics)
+###"Forecasts made clear."
 
-📧 LinkedIn | 🌐 Portfolio
+##📧 LinkedIn | 🌐 Portfolio
