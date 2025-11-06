@@ -110,16 +110,7 @@ cd weatherly
 flutter pub get
 # Open lib/utils/constants.dart and set your API key
 flutter run
-# Optional: build APK
-flutter build apk --release
 
-
-🚀 Deployment
-Build an optimized release for the Play Store:
-
-
-flutter build apk --release
-For signing and upload, see Flutter’s official guide.
 
 🧠 Future Enhancements
 🗺️ Map-based weather visualization
