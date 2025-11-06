@@ -95,20 +95,8 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 
 > Lottie files are located in `assets/animations/` and customizable.
 
----
+# 🌟 Conclusion
 
-## 🏁 Installation
+Weatherly brings the weather to your fingertips with style and precision. Built with Flutter, it delivers **real-time forecasts**, **interactive animations**, and **smart location-based tracking**, making your daily weather updates not just accurate, but also **beautifully intuitive and engaging**. Stay informed, stay prepared, and enjoy the weather like never before! ☀️🌧️🌙
 
-### Prerequisites
-- Flutter (Latest Stable Version)  
-- Dart SDK  
----
 
-##🪪 License
-MIT License — see LICENSE file.
----
-##💜 Author
-###Tisha — CSE (Cyber Security & Digital Forensics)
-###"Forecasts made clear."
-
-##📧 LinkedIn | 🌐 Portfolio
