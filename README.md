@@ -56,58 +56,14 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 | (Optional) `cached_network_image` | Optimize image loading |
 | (Optional) `lottie` | Animated weather icons |
 
----
 
-## 🌐 API Configuration
-- **Provider:** OpenWeatherMap  
-- **Endpoint:** https://api.openweathermap.org/data/2.5/  
-- **Free Tier Limits:** 1,000 calls/day, 60 calls/minute  
-- **Required Calls:**  
-  - Current Weather: `/weather?q={city_name}&appid={API_KEY}`  
-  - 5-Day Forecast: `/forecast?q={city_name}&appid={API_KEY}`  
-  - Current Location: `/weather?lat={lat}&lon={lon}&appid={API_KEY}`  
-
----
-
-## 📱 Recommended Screens
-1. **Home / Dashboard:** Search bar, current weather, quick access to favorites, location-based weather  
-2. **Search Results:** List of cities with tap-to-view details  
-3. **Weather Detail:** Current weather, 5-day forecast, hourly forecast (optional), add/remove favorites  
-4. **Favorites:** List of saved cities with quick overview, swipe-to-delete  
-
----
-
-## 🏁 Getting Started
-
-### Prerequisites
-- Flutter (Latest Stable Version)  
-- Dart SDK  
-
-### Installation Steps
-
-# Clone the repository
-git clone https://github.com/yourusername/weatherly.git
-cd weatherly
-
-# Install dependencies
-flutter pub get
-
-# Set your API key
-# Open lib/utils/constants.dart and replace "YOUR_API_KEY_HERE"
-
-# Run the app
-flutter run
-
-# Build APK (optional)
-flutter build apk --release
-
-📸 Screenshots & Demo
-Replace these links with your actual screenshots or GIFs
-
+📸 Screenshots
 Home Screen	Forecast View	Favorites
-		
 
-Live Demo GIFs:
+	
+	
+🎬 Live Demo
+GIF Demo
 
 Home Screen Animation:
 
@@ -115,7 +71,12 @@ Weather Forecast Animation:
 
 GPS & Favorites Animation:
 
-🎬 Lottie Animations
+Video Demo
+
+Watch Live Demo Video
+
+🎵 Lottie Animations
+
 Weatherly uses smooth animated icons powered by Lottie:
 
 ☀️ Sunny
@@ -129,12 +90,17 @@ Weatherly uses smooth animated icons powered by Lottie:
 Lottie files are located in assets/animations/ and can be customized for weather effects.
 
 🚀 Deployment
+
 Build an optimized release for the Play Store:
 
 flutter build apk --release
-For signing and Play Store upload, see Flutter’s official guide.
+
+
+For signing and Play Store upload, see Flutter’s official guide
+.
 
 🧠 Future Enhancements
+
 🗺️ Map-based weather visualization
 
 🌐 Multi-language support
@@ -144,19 +110,21 @@ For signing and Play Store upload, see Flutter’s official guide.
 🌍 Offline weather data caching
 
 🤝 Contributing
+
 Contributions are welcome!
-Fork the repo → create a new branch → make edits → submit a pull request:
+Fork → create a new branch → make edits → submit a pull request:
 
-
-Copy code
 git checkout -b feature/new-feature
 
 🪪 License
+
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
 💜 Author
+
 Tisha — CSE (Cyber Security & Digital Forensics)
 "Forecasts made clear."
 
-📧 Reach out on LinkedIn | 🌐 Portfolio
+📧 Reach out on LinkedIn
+ | 🌐 Portfolio
