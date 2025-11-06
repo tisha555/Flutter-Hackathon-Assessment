@@ -1,0 +1,31 @@
+name: weatherly
+description: A Flutter weather app (Weatherly) with OpenWeatherMap integration, favorites, location, hourly forecast, and animations.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  geolocator: ^10.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  lottie: ^2.7.0
+  cached_network_image: ^3.3.0
+  permission_handler: ^11.1.0
+  geocoding: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
