@@ -73,7 +73,7 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 **GIF Demo:**  
 | Home Animation | Forecast Animation | GPS & Favorites Animation |
 |----------------|------------------|--------------------------|
-| ![Home GIF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWt-NAESbD_KhPUM76VZY6KnAsX122MMlb8w&s) | ![Forecast GIF](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif) | ![Favorites GIF](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif) |
+| ![Home GIF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWt-NAESbD_KhPUM76VZY6KnAsX122MMlb8w&s) | ![Forecast GIF](https://media.tenor.com/BobCemm6LEMAAAAM/maria-tran-sun.gif) | ![Favorites GIF](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGAbHbBR4MbVRlGlm-2HpZHmeaX3wCBZHa1g&s) |
 
 **Video Demo:**  
 [Watch Live Demo Video](https://blog.tubikstudio.com/wp-content/uploads/2016/10/tubik-studio-weather-app-animation.gif)
