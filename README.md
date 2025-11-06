@@ -57,50 +57,71 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 | (Optional) `lottie` | Animated weather icons |
 
 
-📸 Screenshots
-Home Screen	Forecast View	Favorites
 
-	
-	
-🎬 Live Demo
-GIF Demo
+## 🌐 API Configuration
+- **Provider:** OpenWeatherMap  
+- **Endpoint:** https://api.openweathermap.org/data/2.5/  
+- **Free Tier Limits:** 1,000 calls/day, 60 calls/minute  
+- **Required Calls:**  
+  - `/weather?q={city_name}&appid={API_KEY}` — Current Weather  
+  - `/forecast?q={city_name}&appid={API_KEY}` — 5-Day Forecast  
+  - `/weather?lat={lat}&lon={lon}&appid={API_KEY}` — Current Location  
 
-Home Screen Animation:
+---
 
-Weather Forecast Animation:
+## 📱 Recommended Screens
+| Home / Dashboard | Search Results | Weather Detail | Favorites |
+|-----------------|----------------|----------------|-----------|
+| ![Home](https://via.placeholder.com/200x400?text=Home+Screen) | ![Search](https://via.placeholder.com/200x400?text=Search+Results) | ![Detail](https://via.placeholder.com/200x400?text=Weather+Detail) | ![Favorites](https://via.placeholder.com/200x400?text=Favorites) |
 
-GPS & Favorites Animation:
+---
 
-Video Demo
+## 🎬 Live Demo
+**GIF Demo:**  
+| Home Animation | Forecast Animation | GPS & Favorites Animation |
+|----------------|------------------|--------------------------|
+| ![Home GIF](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif) | ![Forecast GIF](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif) | ![Favorites GIF](https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif) |
 
-Watch Live Demo Video
+**Video Demo:**  
+[Watch Live Demo Video](https://user-images.githubusercontent.com/00000000/weatherly-demo.mp4)
 
-🎵 Lottie Animations
+---
 
-Weatherly uses smooth animated icons powered by Lottie:
+## 🎵 Lottie Animations
+- ☀️ Sunny  
+- 🌧️ Rainy  
+- 🌫️ Cloudy  
+- 📍 GPS Pulse  
 
-☀️ Sunny
+> Lottie files are located in `assets/animations/` and customizable.
 
-🌧️ Rainy
+---
 
-🌫️ Cloudy
+## 🏁 Installation
 
-📍 GPS Pulse
+### Prerequisites
+- Flutter (Latest Stable Version)  
+- Dart SDK  
 
-Lottie files are located in assets/animations/ and can be customized for weather effects.
+### Setup
 
-🚀 Deployment
-
-Build an optimized release for the Play Store:
-
+git clone https://github.com/yourusername/weatherly.git
+cd weatherly
+flutter pub get
+# Open lib/utils/constants.dart and set your API key
+flutter run
+# Optional: build APK
 flutter build apk --release
 
 
-For signing and Play Store upload, see Flutter’s official guide
-.
+🚀 Deployment
+Build an optimized release for the Play Store:
+
+
+flutter build apk --release
+For signing and upload, see Flutter’s official guide.
 
 🧠 Future Enhancements
-
 🗺️ Map-based weather visualization
 
 🌐 Multi-language support
@@ -110,21 +131,15 @@ For signing and Play Store upload, see Flutter’s official guide
 🌍 Offline weather data caching
 
 🤝 Contributing
+Fork → create a branch → make edits → submit a pull request:
 
-Contributions are welcome!
-Fork → create a new branch → make edits → submit a pull request:
 
 git checkout -b feature/new-feature
-
 🪪 License
-
-This project is licensed under the MIT License.
-See the LICENSE file for details.
+MIT License — see LICENSE file.
 
 💜 Author
-
 Tisha — CSE (Cyber Security & Digital Forensics)
 "Forecasts made clear."
 
-📧 Reach out on LinkedIn
- | 🌐 Portfolio
+📧 LinkedIn | 🌐 Portfolio
