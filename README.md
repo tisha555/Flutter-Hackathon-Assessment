@@ -69,112 +69,70 @@ assets/
  ├── icons/
  └── images/
 
-📸 Screenshots & GIFs
 
+---
+
+## 📸 Screenshots & GIFs
 Replace these links with your actual images or GIFs.
 
-Home Screen	Forecast View	Favorites
+| Home Screen | Forecast View | Favorites |
+|-------------|---------------|-----------|
+| ![Home](link-to-home-screenshot) | ![Forecast](link-to-forecast-screenshot) | ![Favorites](link-to-favorites-screenshot) |
 
-	
-	
+**Live Demo GIFs:**  
+- Home Screen Animation: ![Home GIF](link-to-home-gif)  
+- Weather Forecast Animation: ![Forecast GIF](link-to-forecast-gif)  
+- GPS & Favorites Animation: ![Favorites GIF](link-to-favorites-gif)  
 
-Live Demo GIFs:
+---
 
-Home Screen Animation
+## ✨ Features
+| Feature | Description | Icon |
+|---------|-------------|------|
+| 🔍 City Search | Search cities with instant suggestions and error handling for invalid names | 🔍 |
+| 🌤 Current Weather | Shows temperature, humidity, feels-like, wind speed, and condition icons | 🌤 |
+| 📅 5-Day Forecast | Displays daily trends with min/max temperatures and date labels | 📅 |
+| 🕐 Hourly Forecast | Visualize upcoming temperature changes in a horizontal view | 🕐 |
+| ❤️ Favorites | Save, view, or remove cities using local storage | ❤️ |
+| 📍 GPS Location | Auto-detects current location and fetches weather (permission-based) | 📍 |
+| 🔄 Unit Conversion | Toggle between Celsius ↔ Fahrenheit, km/h ↔ mph | 🔄 |
+| 🎨 Modern UI | Light/Violet theme with Lottie weather animations and smooth transitions | 🎨 |
+| 🌪️ Air Quality Index | Check AQI and pollution levels | 🌪️ |
+| 🔔 Notifications | Get alerts for severe weather conditions | 🔔 |
 
+---
 
-Weather Forecast Animation
+## 🛠️ Tech Stack
+| Technology | Purpose | Icon |
+|------------|---------|------|
+| Flutter | Frontend & UI development | 🎨 |
+| Dart | Programming language for Flutter | 💻 |
+| Lottie | Animated weather icons | 🎵 |
+| OpenWeatherMap API | Weather data provider | ☁️ |
+| Shared Preferences | Local storage for favorites | 💾 |
+| Geolocator + Geocoding | GPS & location services | 📍 |
+| Android SDK | Build & deploy Android app | 🤖 |
+| Git & GitHub | Version control | 🐙 |
 
+---
 
-GPS & Favorites Animation
-
-
-✨ Features
-Feature	Description	Icon
-Real-time Weather	Get current weather updates for any location	🌦️
-Forecast View	7-day weather forecast at a glance	📅
-Favorites	Save your favorite locations for quick access	⭐
-Animated Icons	Smooth Lottie animations for weather conditions	🎵
-GPS Integration	Automatically detect your location	📍
-Dark Mode	Switch between light and dark themes	🌙
-Air Quality Index	Check AQI and pollution levels	🌪️
-Notifications	Get alerts for severe weather conditions	🔔
-🛠️ Tech Stack
-Technology	Purpose	Icon
-Flutter	Frontend & UI development	🎨
-Dart	Programming language for Flutter	💻
-Lottie	Animated weather icons	🎵
-OpenWeatherMap API	Weather data provider	☁️
-Android SDK	Build & deploy Android app	🤖
-Git & GitHub	Version control	🐙
-🏁 Getting Started
-
+## 🏁 Getting Started
 Follow these steps to set up the project locally:
 
-Clone the repository:
-
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/weatherly.git
 cd weatherly
 
-
-Install Flutter dependencies:
-
+# Install Flutter dependencies
 flutter pub get
 
+# Set up your API key
+# Open lib/utils/constants.dart
+# Replace "YOUR_API_KEY_HERE" with your OpenWeatherMap API key
 
-Set up your API key:
-
-Open lib/utils/constants.dart
-
-Replace "YOUR_API_KEY_HERE" with your OpenWeatherMap API key
-
-Run the app:
-
+# Run the app
 flutter run
 
-
-Build for release (optional):
-
+# Build for release (optional)
 flutter build apk --release
-
-🚀 Deployment
-
-Build an optimized release for the Play Store:
-
-flutter build apk --release
-
-
-For signing and Play Store upload, see Flutter’s official guide
-.
-
-🧠 Future Enhancements
-
-🗺️ Map-based weather visualization
-
-🌐 Multi-language support
-
-🌡️ Advanced weather statistics
-
-🌍 Offline weather data caching
-
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the repo → create a new branch → make your edits → submit a pull request:
-
-git checkout -b feature/new-feature
-
-🪪 License
-
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
-
-💜 Author
-
-Tisha — CSE (Cyber Security & Digital Forensics)
-"Forecasts made clear."
-
-📧 Reach out on LinkedIn
- | 🌐 Portfolio
-
