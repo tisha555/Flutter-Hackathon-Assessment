@@ -11,33 +11,33 @@ It integrates with the OpenWeatherMap API to fetch real-time weather data and of
 
 ## 🌍 Overview
 Weatherly provides an intuitive interface to track weather anywhere. Users can:  
-- Search cities and view suggestions as they type  
+- Search cities with real-time suggestions  
 - View current weather with detailed metrics  
 - Check 5-day forecasts with icons and min/max temperatures  
 - Save favorite cities for quick access  
-- (Optional) Detect current location and show local weather  
-- (Optional) Hourly forecast, weather animations, and unit conversion  
+- Detect current location and show local weather  
+- View hourly forecasts, animations, and unit conversions  
 
 ---
 
 ## ✨ Core Features
 | Feature | Description |
 |---------|-------------|
-| 🔍 **City Search** | Search cities with instant suggestions, handle invalid names, and show loading indicators. |
-| 🌤 **Current Weather Display** | View temperature, humidity, weather condition, icons, city/country, feels-like, and wind speed. |
-| 📅 **5-Day Forecast** | Scrollable list or grid view showing min/max temperatures, icons, and date/day names. |
-| 🎨 **Clean & Responsive UI** | Modern design with proper spacing, smooth transitions, and matching color schemes. |
-| ❤️ **Favorites** | Save, view, and remove cities using `shared_preferences`. |
+| 🔍 **City Search** | Search cities with suggestions, handle invalid names, and show loading indicators |
+| 🌤 **Current Weather Display** | Temperature, humidity, weather condition, icons, city/country, feels-like, and wind speed |
+| 📅 **5-Day Forecast** | Scrollable list or grid view showing min/max temperatures, icons, and date/day names |
+| 🎨 **Clean & Responsive UI** | Modern design with proper spacing, smooth transitions, and matching color schemes |
+| ❤️ **Favorites** | Save, view, and remove cities using `shared_preferences` |
 
 ---
 
 ## 🌟 Bonus Features (Optional)
 | Feature | Description |
 |---------|-------------|
-| 📍 **Current Location Weather (GPS)** | Automatically detect user's location, handle permissions, and provide fallback if denied. |
-| 🕐 **Hourly Forecast** | Display hourly forecast for next 12–24 hours with temperature and icons. |
-| 🎵 **Weather Animations** | Animated icons, background effects, loading animations, and smooth transitions. |
-| 🔄 **Unit Conversion** | Toggle between Celsius/Fahrenheit and km/h/mph, with local preference storage. |
+| 📍 **Current Location Weather (GPS)** | Automatically detect user's location, handle permissions, and provide fallback if denied |
+| 🕐 **Hourly Forecast** | Display hourly forecast for next 12–24 hours with temperature and icons |
+| 🎵 **Weather Animations** | Animated weather icons using Lottie, background effects, loading animations, and smooth transitions |
+| 🔄 **Unit Conversion** | Toggle between Celsius/Fahrenheit and km/h/mph, with local preferences stored |
 
 ---
 
@@ -52,9 +52,9 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 | `geolocator` | GPS location detection |
 | `intl` | Date/time formatting |
 | (Optional) `geocoding` | Convert coordinates to location names |
-| (Optional) `permission_handler` | Request runtime permissions |
+| (Optional) `permission_handler` | Handle runtime permissions |
 | (Optional) `cached_network_image` | Optimize image loading |
-| (Optional) `lottie` | Weather animations |
+| (Optional) `lottie` | Animated weather icons |
 
 ---
 
@@ -80,47 +80,10 @@ Weatherly provides an intuitive interface to track weather anywhere. Users can:
 ## 🏁 Getting Started
 
 ### Prerequisites
-- Flutter (Latest Stable Version)
-- Dart SDK
-
-## Installation Steps
-
-# Clone the repository
-git clone https://github.com/yourusername/weatherly.git
-cd weatherly
-
-# Install dependencies
-flutter pub get
-
-# Set up your OpenWeatherMap API key
-# Open lib/utils/constants.dart and replace "YOUR_API_KEY_HERE"
-
-# Run the app
-flutter run
-
-# Build APK (optional)
-flutter build apk --release
-
-## 📸 Screenshots & Demo
-
-
-| Home Screen | Forecast View | Favorites |
-|-------------|---------------|-----------|
-| ![Home](https://www.figma.com/community/file/1264522121969062318/weather-app) | ![Forecast](https://www.winklix.com/blog/the-cost-of-developing-a-weather-app-like-willyweather/) | 
-
-**Live Demo GIFs:**  
-- Home Screen Animation: ![Home GIF](https://cdn.dribbble.com/userupload/26412348/file/original-e5d86bfa6580fb17fb7b664b03a2e57d.gif)  
- 
-
----
-
-## 🏁 Getting Started
-
-### Prerequisites
 - Flutter (Latest Stable Version)  
 - Dart SDK  
 
-## Installation
+### Installation Steps
 
 # Clone the repository
 git clone https://github.com/yourusername/weatherly.git
@@ -137,11 +100,37 @@ flutter run
 
 # Build APK (optional)
 flutter build apk --release
+
+📸 Screenshots & Demo
+Replace these links with your actual screenshots or GIFs
+
+Home Screen	Forecast View	Favorites
+		
+
+Live Demo GIFs:
+
+Home Screen Animation:
+
+Weather Forecast Animation:
+
+GPS & Favorites Animation:
+
+🎬 Lottie Animations
+Weatherly uses smooth animated icons powered by Lottie:
+
+☀️ Sunny
+
+🌧️ Rainy
+
+🌫️ Cloudy
+
+📍 GPS Pulse
+
+Lottie files are located in assets/animations/ and can be customized for weather effects.
+
 🚀 Deployment
 Build an optimized release for the Play Store:
 
-
-Copy code
 flutter build apk --release
 For signing and Play Store upload, see Flutter’s official guide.
 
@@ -158,9 +147,10 @@ For signing and Play Store upload, see Flutter’s official guide.
 Contributions are welcome!
 Fork the repo → create a new branch → make edits → submit a pull request:
 
-bash
+
 Copy code
 git checkout -b feature/new-feature
+
 🪪 License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
